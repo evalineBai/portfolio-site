@@ -2,9 +2,9 @@
   "name": "portfolio-site",
   "version": "1.0.0",
   "description": "Evaline Bai Personal Site",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
