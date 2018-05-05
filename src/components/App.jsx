@@ -12,7 +12,8 @@ class App extends React.Component {
   render() {
     return (
       <div className={style.app}>
-        Hello, It Me!
+        <span className={style['col-1-10']}>Left Nav</span>
+        <span className={style['col-9-10']}>Content Box</span>
       </div>
     );
   }
