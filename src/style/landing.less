@@ -1,71 +1,35 @@
-@white: #FFF;
-@linen: #F8EAE5;
-@blush: #D09683;
-@rosybrown: #A6948C;
-@stone: #C0C0C0;
-@glamour: #FF7675;
-@sea-teal: #20948B;
-@pine: #5B7065;
-@charcoal: #231F1B;
-
 .landing {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: 
+    "header header header"
+    "header header header";
   grid-gap: 0.5%;
   height: 95vh;
 }
 
 .one {
-  background-image: url('https://farm4.staticflickr.com/3766/12953056854_b8cdf14f21.jpg');
+  grid-area: header;
+  background-image: url('https://source.unsplash.com/OtmuZ0O5nVQ');
   background-size: cover;
   background-position:center center;
 }
 
 .two {
-  background-image: url('https://farm8.staticflickr.com/7163/6822904141_50277565c3.jpg');
+  background-image: url('https://c1.staticflickr.com/1/958/42011492461_0a25a88a73_b.jpg');
   background-size: cover;
   background-position:center center;
 }
 
 .three {
-  background-image: url('https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg');
+  background-image: url('https://c1.staticflickr.com/1/944/42010845841_2b6b6e1905_b.jpg');
   background-size: cover;
   background-position:center center;
 }
 
 .four {
-  background-image: url('https://farm7.staticflickr.com/6139/5986939269_10721b8017.jpg');
-  background-size: cover;
-  background-position:center center;
-}
-
-.five {
-  h3 {
-    text-align: left;
-    position: absolute;
-  }
-}
-
-.six {
-  background-image: url('https://farm9.staticflickr.com/8429/7862595906_8f953fd25b.jpg');
-  background-size: cover;
-  background-position:center center;
-}
-
-.seven {
-  background-image: url('https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg');
-  background-size: cover;
-  background-position:center center;
-}
-
-.eight {
-  background-image: url('https://farm4.staticflickr.com/3771/13199704015_72aa535bd7.jpg');
-  background-size: cover;
-  background-position:center center;
-}
-
-.nine {
-  background-image: url('https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg');
+  background-image: url('https://c1.staticflickr.com/1/966/42010845521_5847911b6e_b.jpg');
   background-size: cover;
   background-position:center center;
 }

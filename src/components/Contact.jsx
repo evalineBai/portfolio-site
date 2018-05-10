@@ -12,13 +12,13 @@ import style from '../style/contact.less';
 
 const Contact = () => (
   <div>
-    <FontAwesomeIcon icon={Envelope} size="lg" className={style.icon} />
-    <FontAwesomeIcon icon={LinkedIn} size="lg" className={style.icon} />
-    <FontAwesomeIcon icon={Github} size="lg" className={style.icon} />
-    <FontAwesomeIcon icon={Medium} size="lg" className={style.icon} />
-    <FontAwesomeIcon icon={Facebook} size="lg" className={style.icon} />
-    <FontAwesomeIcon icon={StackOverflow} size="lg" className={style.icon} />
-    <FontAwesomeIcon icon={Twitter} size="lg" className={style.icon} />
+    <FontAwesomeIcon icon={Envelope} size="10px" className={style.icon} />
+    <FontAwesomeIcon icon={LinkedIn} size="10px" className={style.icon} />
+    <FontAwesomeIcon icon={Github} size="10px" className={style.icon} />
+    <FontAwesomeIcon icon={Medium} size="10px" className={style.icon} />
+    <FontAwesomeIcon icon={Facebook} size="10px" className={style.icon} />
+    <FontAwesomeIcon icon={StackOverflow} size="10px" className={style.icon} />
+    <FontAwesomeIcon icon={Twitter} size="10px" className={style.icon} />
   </div>
 );
 

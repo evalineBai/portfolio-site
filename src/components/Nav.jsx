@@ -5,21 +5,21 @@ import style from '../style/nav.less';
 
 const Nav = () => (
   <div className={style.nav}>
-    <div className={style.header}>
-      <h1>
-        <span className={style.first}>Evaline </span>
-        <span className={style.last}>Bai</span>
+    <div>
+      <h1 className={style.header}>
+        <span className={style.first}>evaline </span>
+        <span className={style.last}>bai</span>
       </h1>
     </div>
     <div>
       <ul className={style.list}>
-        <li>About Me</li>
-        <li>Portfolio</li>
-        <li>Blog</li>
-        <li>Resume</li>
+        <li>ABOUT</li>
+        <li>PORTFOLIO</li>
+        <li>BLOG</li>
+        <li>RESUME</li>
       </ul>
     </div>
-    <hr className={style.bar}/>
+    <hr className={style.bar} />
     <div>
       <Contact />
     </div>
