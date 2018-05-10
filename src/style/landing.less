@@ -1,3 +1,7 @@
+@pine: #5B7065;
+@sand-green: #B6B9B6;
+@charcoal: #231F1B;
+
 .landing {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -6,30 +10,34 @@
     "header header header"
     "header header header";
   grid-gap: 0.5%;
-  height: 95vh;
+  height: 98vh;
 }
 
 .one {
   grid-area: header;
-  background-image: url('https://source.unsplash.com/OtmuZ0O5nVQ');
+  background-image: url('https://source.unsplash.com/wbjNpL_fAsw');
   background-size: cover;
   background-position:center center;
 }
 
 .two {
-  background-image: url('https://c1.staticflickr.com/1/958/42011492461_0a25a88a73_b.jpg');
+  background-image: url('https://source.unsplash.com/zE007SNgcdE');
   background-size: cover;
   background-position:center center;
 }
 
 .three {
-  background-image: url('https://c1.staticflickr.com/1/944/42010845841_2b6b6e1905_b.jpg');
+  background-image: url('https://source.unsplash.com/z7Z6vUPkLbQ');
   background-size: cover;
   background-position:center center;
 }
 
 .four {
-  background-image: url('https://c1.staticflickr.com/1/966/42010845521_5847911b6e_b.jpg');
-  background-size: cover;
-  background-position:center center;
+  border: solid @sand-green;
+  padding-right: 5%;
+  padding-top: 60%;
+  text-align: right;
+  h2 {
+    color: @pine;
+  }
 }

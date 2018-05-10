@@ -13,10 +13,10 @@ class App extends React.Component {
   render() {
     return (
       <div className={style.app}>
-        <span className={style['col-1-10']}>
+        <span className={style.side}>
           <Nav />
         </span>
-        <span className={style['col-9-10']}>
+        <span className={style.main}>
           <Landing />
         </span>
       </div>
