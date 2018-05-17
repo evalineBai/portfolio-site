@@ -16,6 +16,7 @@ const Nav = () => (
       <ul className={style.list}>
         <li>ABOUT</li>
         <li>PORTFOLIO</li>
+        <li>PAINTING</li>
         <li>BLOG</li>
         <li>RESUME</li>
       </ul>
