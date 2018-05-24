@@ -12,13 +12,24 @@ import style from '../style/contact.less';
 
 const Contact = () => (
   <div>
-    <FontAwesomeIcon icon={Envelope} size="10px" className={style.icon} />
-    <FontAwesomeIcon icon={LinkedIn} size="10px" className={style.icon} />
-    <FontAwesomeIcon icon={Github} size="10px" className={style.icon} />
-    <FontAwesomeIcon icon={Medium} size="10px" className={style.icon} />
-    <FontAwesomeIcon icon={Facebook} size="10px" className={style.icon} />
-    <FontAwesomeIcon icon={StackOverflow} size="10px" className={style.icon} />
-    <FontAwesomeIcon icon={Twitter} size="10px" className={style.icon} />
+    <a href="mailto:evalinebai@gmail.com">
+      <FontAwesomeIcon icon={Envelope} size="12px" className={style.icon} />
+    </a>
+    <a href="https://www.linkedin.com/in/evaline-bai/" target="_blank">
+      <FontAwesomeIcon icon={LinkedIn} size="12px" className={style.icon} />
+    </a>
+    <a href="https://github.com/evalineBai" target="_blank">
+      <FontAwesomeIcon icon={Github} size="12px" className={style.icon} />
+    </a>
+    <a href="https://medium.com/@evalinebai" target="_blank">
+      <FontAwesomeIcon icon={Medium} size="12px" className={style.icon} />
+    </a>
+    <a href="https://www.facebook.com/evalinejbai" target="_blank">
+      <FontAwesomeIcon icon={Facebook} size="12px" className={style.icon} />
+    </a>
+    <a href="https://twitter.com/BaiEvaline" target="_blank">
+      <FontAwesomeIcon icon={Twitter} size="12px" className={style.icon} />
+    </a>
   </div>
 );
 
