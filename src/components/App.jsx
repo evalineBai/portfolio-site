@@ -17,7 +17,13 @@ class App extends React.Component {
           <Nav />
         </span>
         <span className={style.main}>
-          <Landing />
+          <Route
+            exact
+            path="/"
+            render={() => (
+              <Landing />
+            )}
+          />
         </span>
       </div>
     );

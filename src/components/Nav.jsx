@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navlink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Contact from './Contact';
 import style from '../style/nav.less';
 
@@ -14,10 +14,51 @@ const Nav = () => (
     </div>
     <div>
       <ul className={style.list}>
-        <li>ABOUT</li>
-        <li>PORTFOLIO</li>
-        <li>PAINTING</li>
-        <li>RESUME</li>
+        <li>
+          <NavLink
+            exact={true}
+            to="/"
+            activeClassName="selected"
+          >
+            HOME
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            exact={true}
+            to="/about"
+            activeClassName="selected"
+          >
+            ABOUT
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            exact={true}
+            to="/portfolio"
+            activeClassName="selected"
+          >
+            PORTFOLIO
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            exact={true}
+            to="/painting"
+            activeClassName="selected"
+          >
+            PAINTING
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            exact={true}
+            to="/resume"
+            activeClassName="selected"
+          >
+            RESUME
+          </NavLink>
+        </li>
       </ul>
     </div>
     <hr className={style.bar} />
