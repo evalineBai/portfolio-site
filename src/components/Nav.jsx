@@ -10,7 +10,7 @@ const Nav = () => (
         <span className={style.first}>evaline </span>
         <span className={style.last}>bai</span>
       </h1>
-      <h4 className={style.subheader}>Software Developer</h4>
+      <h4 className={style.subheader}>Technology x Society</h4>
     </div>
     <div>
       <ul className={style.list}>
@@ -18,7 +18,8 @@ const Nav = () => (
           <NavLink
             exact={true}
             to="/"
-            activeClassName="selected"
+            className={style.link}
+            activeClassName={style.selected}
           >
             HOME
           </NavLink>
@@ -27,7 +28,8 @@ const Nav = () => (
           <NavLink
             exact={true}
             to="/about"
-            activeClassName="selected"
+            className={style.link}
+            activeClassName={style.selected}
           >
             ABOUT
           </NavLink>
@@ -36,7 +38,8 @@ const Nav = () => (
           <NavLink
             exact={true}
             to="/portfolio"
-            activeClassName="selected"
+            className={style.link}
+            activeClassName={style.selected}
           >
             PORTFOLIO
           </NavLink>
@@ -45,7 +48,8 @@ const Nav = () => (
           <NavLink
             exact={true}
             to="/painting"
-            activeClassName="selected"
+            className={style.link}
+            activeClassName={style.selected}
           >
             PAINTING
           </NavLink>
@@ -54,7 +58,8 @@ const Nav = () => (
           <NavLink
             exact={true}
             to="/resume"
-            activeClassName="selected"
+            className={style.link}
+            activeClassName={style.selected}
           >
             RESUME
           </NavLink>

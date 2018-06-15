@@ -8,7 +8,7 @@ const Landing = () => (
     <div className={style.two}/>
     <div className={style.three}/>
     <div className={style.four}>
-      <h2>nice to meet you!</h2>
+      <h2>welcome!</h2>
     </div>
   </div>
 );

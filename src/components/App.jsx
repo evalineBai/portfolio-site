@@ -3,6 +3,7 @@ import { withRouter } from 'react-router';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Nav from './Nav';
 import Landing from './Landing';
+import About from './About';
 import style from '../style/app.less';
 
 class App extends React.Component {
@@ -22,6 +23,12 @@ class App extends React.Component {
             path="/"
             render={() => (
               <Landing />
+            )}
+          />
+          <Route
+            path="/about"
+            render={() => (
+              <About />
             )}
           />
         </span>
