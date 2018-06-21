@@ -5,6 +5,7 @@ import Nav from './Nav';
 import Landing from './Landing';
 import About from './About';
 import Portfolio from './Portfolio';
+import Painting from './Painting';
 import style from '../style/app.less';
 
 class App extends React.Component {
@@ -41,7 +42,7 @@ class App extends React.Component {
           <Route
             path="/painting"
             render={() => (
-              <About />
+              <Painting />
             )}
           />
           <Route

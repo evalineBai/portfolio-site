@@ -4,7 +4,7 @@ import style from '../style/portfolio.less';
 const Portfolio = () => (
   <div className={style.portfolio}>
     <div>
-      <h3>BlockBallot</h3>
+      <h3>BlockBallot | <a href="http://blockballot.us/" target="_blank">blockballot.us</a></h3>
       <div className={style.images}>
         <div className={style.one} />
         <div className={style.two} />
@@ -16,7 +16,7 @@ const Portfolio = () => (
     </div>
     <hr/>
     <div>
-      <h3>Meet Sean Mills!</h3>
+      <h3>Meet Sean Mills | <a href="http://www.seanmills.website/" target="_blank">seanmills.website</a></h3>
       <div className={style.images}>
         <div className={style.one} />
         <div className={style.two} />
@@ -28,7 +28,7 @@ const Portfolio = () => (
     </div>
     <hr />
     <div>
-      <h3>Cartblanched</h3>
+      <h3>Cartblanched | <a href="https://cartblanched.herokuapp.com/" target="_blank">cartblanched.herokuapp.com</a></h3>
       <div className={style.images}>
         <div className={style.one} />
         <div className={style.two} />
@@ -40,7 +40,7 @@ const Portfolio = () => (
     </div>
     <hr />
     <div>
-      <h3>Locastore</h3>
+      <h3>Locastore | <a href="https://locastore.herokuapp.com/" target="_blank">locastore.herokuapp.com</a></h3>
       <div className={style.images}>
         <div className={style.one} />
         <div className={style.two} />

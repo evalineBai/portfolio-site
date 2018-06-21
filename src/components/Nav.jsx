@@ -41,7 +41,7 @@ const Nav = () => (
             className={style.link}
             activeClassName={style.selected}
           >
-            PORTFOLIO
+            APPS
           </NavLink>
         </li>
         <li>
@@ -51,7 +51,7 @@ const Nav = () => (
             className={style.link}
             activeClassName={style.selected}
           >
-            PAINTING
+            ART
           </NavLink>
         </li>
         <li>
