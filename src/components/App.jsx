@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Nav from './Nav';
 import Landing from './Landing';
 import About from './About';
+import Portfolio from './Portfolio';
 import style from '../style/app.less';
 
 class App extends React.Component {
@@ -14,10 +15,10 @@ class App extends React.Component {
   render() {
     return (
       <div className={style.app}>
-        <span className={style.side}>
-          <Nav />
-        </span>
-        <span className={style.main}>
+        <div className={style.side}>
+          <Nav/>
+        </div>
+        <div className={style.main}>
           <Route
             exact
             path="/"
@@ -34,7 +35,7 @@ class App extends React.Component {
           <Route
             path="/portfolio"
             render={() => (
-              <About />
+              <Portfolio />
             )}
           />
           <Route
@@ -49,7 +50,7 @@ class App extends React.Component {
               <About />
             )}
           />
-        </span>
+        </div>
       </div>
     );
   }
