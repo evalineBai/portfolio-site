@@ -31,6 +31,24 @@ class App extends React.Component {
               <About />
             )}
           />
+          <Route
+            path="/portfolio"
+            render={() => (
+              <About />
+            )}
+          />
+          <Route
+            path="/painting"
+            render={() => (
+              <About />
+            )}
+          />
+          <Route
+            path="/resume"
+            render={() => (
+              <About />
+            )}
+          />
         </span>
       </div>
     );
