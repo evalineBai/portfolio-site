@@ -2,7 +2,7 @@ import React from 'react';
 import style from '../style/painting.less';
 
 const Painting = () => (
-  <div className={style.portfolio}>
+  <div className={style.art}>
     <div className={style.one}/>
     <div className={style.two}/>
     <div className={style.three}/>
