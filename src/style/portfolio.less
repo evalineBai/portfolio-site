@@ -16,8 +16,15 @@
 .images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 0.5%;
+  grid-gap: 1%;
   height: 30vh;
+}
+
+@media (max-width: 768px) {
+  .images {
+    grid-template-columns: 1fr;
+    height: 90vh;
+  }
 }
 
 .one {
