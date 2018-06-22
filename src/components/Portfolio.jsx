@@ -10,7 +10,7 @@ const Portfolio = () => (
         <div className={style.two} />
         <div className={style.three} />
       </div>
-      <div>
+      <div className={style.description}>
         <h5>A voting platform built on the Ethereum network</h5>
       </div>
     </div>
@@ -18,36 +18,36 @@ const Portfolio = () => (
     <div>
       <h3>Meet Sean Mills | <a href="http://www.seanmills.website/" target="_blank">seanmills.website</a></h3>
       <div className={style.images}>
-        <div className={style.one} />
-        <div className={style.two} />
-        <div className={style.three} />
+        <div className={style.four} />
+        <div className={style.five} />
+        <div className={style.six} />
       </div>
-      <div>
-        <h5>A voting platform built on the Ethereum network</h5>
+      <div className={style.description}>
+        <h5>A pared-down personal site for a Caltech astronomer and cool dude</h5>
       </div>
     </div>
-    <hr />
+    <hr/>
     <div>
       <h3>Cartblanched | <a href="https://cartblanched.herokuapp.com/" target="_blank">cartblanched.herokuapp.com</a></h3>
       <div className={style.images}>
-        <div className={style.one} />
-        <div className={style.two} />
-        <div className={style.three} />
+        <div className={style.seven} />
+        <div className={style.eight} />
+        <div className={style.nine} />
       </div>
-      <div>
-        <h5>A voting platform built on the Ethereum network</h5>
+      <div className={style.description}>
+        <h5>Automatically populate an online shopping cart and order groceries based on the ingredient lists of your favorite recipes</h5>
       </div>
     </div>
     <hr />
     <div>
       <h3>Locastore | <a href="https://locastore.herokuapp.com/" target="_blank">locastore.herokuapp.com</a></h3>
       <div className={style.images}>
-        <div className={style.one} />
-        <div className={style.two} />
-        <div className={style.three} />
+        <div className={style.ten} />
+        <div className={style.eleven} />
+        <div className={style.twelve} />
       </div>
-      <div>
-        <h5>A voting platform built on the Ethereum network</h5>
+      <div className={style.description}>
+        <h5>A platform to connect consumers to the locally-owned business ecosystems around them</h5>
       </div>
     </div>
   </div>
