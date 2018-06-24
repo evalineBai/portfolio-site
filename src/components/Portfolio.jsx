@@ -4,7 +4,9 @@ import style from '../style/portfolio.less';
 const Portfolio = () => (
   <div className={style.portfolio}>
     <div>
-      <h3>BlockBallot | <a href="http://blockballot.us/" target="_blank">blockballot.us</a></h3>
+      <h3>
+        BlockBallot | <a href="http://blockballot.us/" target="_blank">blockballot.us</a> | <a href="https://github.com/blockballot/blockballot" target="_blank">code</a>
+      </h3>
       <div className={style.images}>
         <div className={style.one} />
         <div className={style.two} />
@@ -16,7 +18,9 @@ const Portfolio = () => (
     </div>
     <hr/>
     <div>
-      <h3>Meet Sean Mills | <a href="http://www.seanmills.website/" target="_blank">seanmills.website</a></h3>
+      <h3>
+        Meet Sean Mills | <a href="http://www.seanmills.website/" target="_blank">seanmills.website</a> | <a href="https://github.com/evalineBai/smm-personal-site" target="_blank">code</a>
+      </h3>
       <div className={style.images}>
         <div className={style.four} />
         <div className={style.five} />
@@ -28,7 +32,9 @@ const Portfolio = () => (
     </div>
     <hr/>
     <div>
-      <h3>Cartblanched | <a href="https://cartblanched.herokuapp.com/" target="_blank">cartblanched.herokuapp.com</a></h3>
+      <h3>
+        Cartblanched | <a href="https://cartblanched.herokuapp.com/" target="_blank">cartblanched.herokuapp.com</a> | <a href="https://github.com/cartblanched/cartblanched" target="_blank">code</a>
+      </h3>
       <div className={style.images}>
         <div className={style.seven} />
         <div className={style.eight} />
@@ -40,7 +46,9 @@ const Portfolio = () => (
     </div>
     <hr />
     <div>
-      <h3>Locastore | <a href="https://locastore.herokuapp.com/" target="_blank">locastore.herokuapp.com</a></h3>
+      <h3>
+        Locastore | <a href="https://locastore.herokuapp.com/" target="_blank">locastore.herokuapp.com</a> | <a href="https://github.com/Locastore/locastore" target="_blank">code</a>
+      </h3>
       <div className={style.images}>
         <div className={style.ten} />
         <div className={style.eleven} />

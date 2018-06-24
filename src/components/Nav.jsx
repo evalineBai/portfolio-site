@@ -54,7 +54,7 @@ const Nav = () => (
             ART
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink
             exact={true}
             to="/resume"
@@ -63,7 +63,7 @@ const Nav = () => (
           >
             RESUME
           </NavLink>
-        </li>
+        </li> */}
       </ul>
     </div>
     <hr className={style.bar} />
