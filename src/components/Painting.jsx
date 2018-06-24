@@ -4,7 +4,7 @@ import style from '../style/painting.less';
 const Painting = () => (
   <div className={style.artro}>
     <p>
-      I like to paint when I have the time (although hard to come by) and have a fascination with portraiture. I'm available for commissions if you like rather illustrative images.
+      I like to paint when I have the time and have a fascination with portraiture. I'm available for commissions if you like rather illustrative images.
     </p>
     <div className={style.art}>
       <div className={style.one}/>
