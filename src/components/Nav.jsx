@@ -54,16 +54,6 @@ const Nav = () => (
             ART
           </NavLink>
         </li>
-        {/* <li>
-          <NavLink
-            exact={true}
-            to="/resume"
-            className={style.link}
-            activeClassName={style.selected}
-          >
-            RESUME
-          </NavLink>
-        </li> */}
       </ul>
     </div>
     <hr className={style.bar} />

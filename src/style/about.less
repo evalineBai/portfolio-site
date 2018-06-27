@@ -8,10 +8,22 @@
   overflow-y: scroll;
   height: 100%;
   line-height: 150%;
+
   a {
     color: @pine;
   }
+  
   a:hover {
     color: @stone;
   }
+}
+
+@media(min-width: 768px) {
+  .smallContact {
+    display: none;
+  }
+}
+
+.smallContact {
+  margin: 5% 0 5% 0;
 }

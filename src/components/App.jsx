@@ -2,6 +2,7 @@ import React from 'react';
 import { withRouter } from 'react-router';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Nav from './Nav';
+import SmallNav from './SmallNav';
 import Landing from './Landing';
 import About from './About';
 import Portfolio from './Portfolio';
@@ -16,6 +17,7 @@ class App extends React.Component {
   render() {
     return (
       <div className={style.app}>
+        <SmallNav/>
         <div className={style.side}>
           <Nav/>
         </div>

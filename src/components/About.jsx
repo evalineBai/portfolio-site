@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from './Contact';
 import style from '../style/about.less';
 
 const About = () => (
@@ -13,6 +14,9 @@ const About = () => (
       </p>
       <div>
         You can download a copy of my resume <a href="https://drive.google.com/file/d/1t5IdRI7ZCULPQ4kjRW1q6xVqeXKOBzvG/view?usp=sharing" target="_blank">here</a>.
+      </div>
+      <div className={style.smallContact}>
+        <Contact/>
       </div>
     </div>
   </div>
