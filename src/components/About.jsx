@@ -13,7 +13,7 @@ const About = () => (
         Today I'm busy leveling up in blockchain development, contributing to open source projects, trying to live sustainably, and exploring beautiful Los Angeles. My favorite activities involve creating things - be it painting, writing, coding, or cooking - and my current tools of choice are Javascript, React, Node.js, the Ethereum stack, and the Instant Pot. Perhaps the most significant thing to know about me, however, is that I am obsessed with learning new things and am always up for expanding my universe. Let's get in touch!
       </p>
       <div>
-        You can download a copy of my resume <a href="https://drive.google.com/file/d/1t5IdRI7ZCULPQ4kjRW1q6xVqeXKOBzvG/view?usp=sharing" target="_blank">here</a>.
+        You can download a copy of my resume <a href="https://drive.google.com/file/d/1N8RGO3ZtCb7jMbQuv-ZdDYAimUBJue01/view?usp=sharing" target="_blank">here</a>.
       </div>
       <div className={style.smallContact}>
         <Contact/>
