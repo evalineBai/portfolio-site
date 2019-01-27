@@ -10,7 +10,7 @@ const Nav = () => (
         <span className={style.first}>evaline </span>
         <span className={style.last}>bai</span>
       </h1>
-      <h4 className={style.subheader}>software x society</h4>
+      <h4 className={style.subheader}>creative technologist</h4>
     </div>
     <div>
       <ul className={style.list}>
