@@ -7,9 +7,7 @@ const Landing = () => (
     <div className={style.one}/>
     <div className={style.two}/>
     <div className={style.three}/>
-    <div className={style.four}>
-      <h2>welcome!</h2>
-    </div>
+    <div className={style.four}/>
   </div>
 );
 
