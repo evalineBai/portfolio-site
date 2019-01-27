@@ -1,3 +1,6 @@
+@charcoal: #231F1B;
+@linen: #F8EAE5;
+
 .artro {
   width: 90%;
   margin: 0 auto;
@@ -14,16 +17,31 @@
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 1%;
   height: 100vh;
-
   div {
     background-size: cover;
     background-position: center center;
+    .title {
+      display: none;
+    }
   }
   
   div:hover {
     transition: .5s ease;
-    opacity: 0.3;
     text-align: center;
+    color: @linen;
+    .title {
+      padding: 5%;
+      margin-top: 15%;
+      background-color: @charcoal;
+      display: block;
+      h3 {
+        margin-bottom: 2%;
+        text-transform: uppercase;
+      }
+      h5 {
+        margin-top: 0;
+      }
+    }
   }
 }
 
