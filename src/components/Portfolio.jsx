@@ -5,12 +5,29 @@ const Portfolio = () => (
   <div className={style.portfolio}>
     <div>
       <h3>
+        Change.org | <a href="https://change.org/" target="_blank">change.org</a>
+      </h3>
+      <div className={style.images}>
+        <div className={style.thirteen} />
+        <div className={style.fourteen} />
+        <div className={style.fifteen} />
+      </div>
+      <div className={style.description}>
+        <h4>A platform that empowers the powerless with web organizing</h4>
+      </div>
+      <div>
+        At Change I design and build full-stack products such as a real-time SMS outreach system, petition tags, and feature experimentation. I improved our event-driven and microservice architecture by leading projects such as isolating our legacy monolith into domain-relevant services. And I operate cross-functionally on a daily basis, from product to infrastructure, to meet the needs of Change’s 300 million+ user base. The stack I use is primarily React, Backbone, GraphQL, Ruby, Redis, MySQL, and AWS.
+      </div>
+    </div>
+    <hr />
+    <div>
+      <h3>
         BlockBallot | <a href="http://blockballot.us/" target="_blank">blockballot.us</a> | <a href="https://github.com/blockballot/blockballot" target="_blank">code</a>
       </h3>
       <div className={style.images}>
-        <div className={style.one} />
-        <div className={style.two} />
-        <div className={style.three} />
+        <div className={style.ten} />
+        <div className={style.eleven} />
+        <div className={style.twelve} />
       </div>
       <div className={style.description}>
         <h4>A voting platform built on the Ethereum network</h4>
@@ -29,9 +46,9 @@ const Portfolio = () => (
         Meet Sean Mills | <a href="http://www.seanmills.website/" target="_blank">seanmills.website</a> | <a href="https://github.com/evalineBai/smm-personal-site" target="_blank">code</a>
       </h3>
       <div className={style.images}>
-        <div className={style.four} />
-        <div className={style.five} />
-        <div className={style.six} />
+        <div className={style.seven} />
+        <div className={style.eight} />
+        <div className={style.nine} />
       </div>
       <div className={style.description}>
         <h4>A pared-down personal site for a Caltech astronomer and cool dude</h4>
@@ -46,9 +63,9 @@ const Portfolio = () => (
         Cartblanched | <a href="https://cartblanched.herokuapp.com/" target="_blank">cartblanched.herokuapp.com</a> | <a href="https://github.com/cartblanched/cartblanched" target="_blank">code</a>
       </h3>
       <div className={style.images}>
-        <div className={style.seven} />
-        <div className={style.eight} />
-        <div className={style.nine} />
+        <div className={style.four} />
+        <div className={style.five} />
+        <div className={style.six} />
       </div>
       <div className={style.description}>
         <h4>Automatically populate an online shopping cart and order groceries based on the ingredient lists of your favorite recipes</h4>
@@ -63,9 +80,9 @@ const Portfolio = () => (
         Locastore | <a href="https://locastore.herokuapp.com/" target="_blank">locastore.herokuapp.com</a> | <a href="https://github.com/Locastore/locastore" target="_blank">code</a>
       </h3>
       <div className={style.images}>
-        <div className={style.ten} />
-        <div className={style.eleven} />
-        <div className={style.twelve} />
+        <div className={style.one} />
+        <div className={style.two} />
+        <div className={style.three} />
       </div>
       <div className={style.description}>
         <h4>A platform to connect consumers to the locally-owned business ecosystems around them</h4>
