@@ -22,7 +22,7 @@ const Portfolio = () => (
     <hr />
     <div>
       <h3>
-        BlockBallot | <a href="http://blockballot.us/" target="_blank">blockballot.us</a> | <a href="https://github.com/blockballot/blockballot" target="_blank">code</a>
+        BlockBallot | <a href="https://github.com/blockballot/blockballot" target="_blank">code</a>
       </h3>
       <div className={style.images}>
         <div className={style.ten} />
